@@ -42,7 +42,7 @@
         </nav>
     </div>
     <div class="contact-clean" style="background-color:rgb(240,240,240);">
-        <form method="post" style="background-color:#d6d3d6;">
+        <form action="contact.php" method="POST" style="background-color:#d6d3d6;">
             <h2 class="text-center" style="font-family:'Source Sans Pro', sans-serif;color:rgb(71,40,53);">Contact us</h2>
             <div class="form-group has-success">
                 <input class="form-control" type="text" name="name" placeholder="Name">
@@ -53,7 +53,9 @@
             <div class="form-group">
                 <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
             </div>
-            <div class="form-group"><a class="btn btn-default action-button1" role="button" href="#" style="margin-left:156px;margin-top:13px;">Sign Up</a></div>
+
+            <div class="form-group"><input type="submit" class="btn btn-default action-button1" role="button" value="Sign Up" style="margin-left:156px;margin-top:13px;" ></div>
+
         </form>
     </div>
     <div class="footer-dark" style="background-color:rgb(71,40,53);">
